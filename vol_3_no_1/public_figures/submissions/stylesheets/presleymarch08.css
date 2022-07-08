@@ -1,0 +1,11 @@
+.wordspaceone {
+	word-spacing: 0.9em;
+}
+
+.wordspacelessthanone {
+	word-spacing: 0.45em;
+}
+
+td.leftcolumnone {
+	width: 20em;
+}

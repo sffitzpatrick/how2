@@ -1,0 +1,43 @@
+h3 {
+	margin-left: 2em;
+}
+
+div.marion, div.cut2 {
+	margin-left: 27em;
+}
+
+div.cut1 {
+	text-align: justify;
+	width: 45em;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+div.cut3 {
+	text-align: justify;
+	width: 40em;
+	margin: 0 auto;
+}
+
+div.cut4 {
+	margin-left: 32em;
+}
+
+h2 span.crossout {
+	margin-left: 2em;
+	text-decoration: line-through;
+}
+
+div.ladybird {
+	margin-left: 20em;
+}
+
+hr.short {
+	width: 5em;
+	margin: 0 auto;
+}

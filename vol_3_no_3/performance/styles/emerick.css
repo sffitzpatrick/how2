@@ -1,0 +1,22 @@
+#content div.maincontainer {
+	display: block;
+	overflow: hidden;
+	width: 45em;
+	margin-left: 13em;
+	margin-top: 5em;
+}
+
+#content p {
+	margin: 0;
+}
+
+#content p.emerickquote {
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#content p.emerickquoteauthor {
+	text-align: right;
+	margin-right: 8em;
+}

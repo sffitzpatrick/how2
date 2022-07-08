@@ -1,0 +1,34 @@
+.poem p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+}
+
+.extone p {
+	font: 1.2em "Times New Roman", Georgia, Times, serif;
+	line-height: 200%;
+}
+
+.extone {
+	margin-left: 8em;
+}
+
+.exttwo p {
+	font: 1.2em "Times New Roman", Georgia, Times, serif;
+	line-height: 200%;
+}
+
+.exttwo {
+	margin-left: 25em;
+}
+
+.exttwobig {
+	font-size: 1.5em;
+}
+
+.extthree p {
+	font: 1.2em "Courier New", Courier, mono;
+	line-height: 200%;
+}
+
+.extthree {
+	margin-left: 3em;
+}

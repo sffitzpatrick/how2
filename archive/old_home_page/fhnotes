@@ -1,0 +1,154 @@
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-language" CONTENT="en-US">
+<TITLE>WORKING NOTES FROM Fanny Howe</TITLE>
+<META NAME="keywords" CONTENT=""Fanny Howe, bio, biography, working notes">
+<META NAME="description" CONTENT=""Fanny Howe Bio and Working Notes">
+<META NAME="rating" CONTENT="General">
+<META NAME="VW96.objecttype" CONTENT="Magazine">
+<META NAME="ROBOTS" CONTENT="ALL">
+<META NAME="DC.title" CONTENT="However: A magazine of experimental, feminist and scholarly writings">
+<META NAME="DC.creator" CONTENT="Stan Friedman">
+<META NAME="DC.subject" CONTENT="literature, feminism">
+<META NAME="DC.publisher" CONTENT="Rutgers University">
+<META NAME="DC.contributors" CONTENT="Kathleen Crown, Kathleen Fraser, Miriam Bartok, Delphine Khanna, Erin Griffiths,  Rutgers University">
+<META NAME="DC.language" CONTENT="ENG">
+<META NAME="DC.coverage.placeName" CONTENT="New Brunswick, New Jersey, USA"> <script>
+<!--
+
+if (document.images) {
+  image1on = new Image();
+  image1on.src = "currentn.gif";
+
+  image2on = new Image();
+  image2on.src = "archiven.gif";
+
+ image3on = new Image();
+ image3on.src = "authn.gif";
+
+  image4on = new Image();
+  image4on.src = "discussn.gif";
+
+  image5on = new Image();
+  image5on.src = "searchn.gif";
+
+  image6on = new Image();
+  image6on.src = "editorn.gif";
+
+  image7on = new Image();
+  image7on.src = "whyhown.gif";
+
+ image8on = new Image();
+ image8on.src = "homen.gif";
+
+
+
+
+
+  image1off = new Image();
+  image1off.src = "excla.gif";
+
+  image2off = new Image();
+  image2off.src = "plus.gif";
+
+  image3off = new Image();
+  image3off.src = "percent.gif";
+
+  image4off = new Image();
+  image4off.src = "gab.gif";
+
+  image5off = new Image();
+  image5off.src = "quest.gif";
+
+  image6off = new Image();
+  image6off.src = "tictac.gif";
+
+  image7off = new Image();
+  image7off.src = "y.gif";
+
+  image8off = new Image();
+  image8off.src = "home.gif";
+
+}
+
+function turnOn(imageName) {
+  if (document.images) {
+    document[imageName].src = eval(imageName + "on.src");
+  }
+}
+
+function turnOff(imageName) {
+  if (document.images) {
+    document[imageName].src = eval(imageName + "off.src");
+  }
+}
+
+// -->
+</script>
+
+
+</HEAD>
+
+<BODY BGCOLOR="#FDFCE3" LINK="#01004D" VLINK="#000000" ALINK="#000000">
+
+<table border="0" cellpadding="0" cellspacing="0" width="450">
+<TR><td> &nbsp;</dt>
+<td width="95%">
+
+
+<basefont =3><FONT FACE="Palatino, Arial" size="3">
+<H3 ALIGN=CENTER>Fanny Howe</H3>
+
+<P>
+
+<FONT FACE="Palatino, Arial" size="3">
+Fanny Howe is a prolific writer of novels, poetry. and fiction for young adults. Her poem collections include 
+ <I>For Erato: The Meaning of Life (
+</I> Tuumba, 1984); 
+ <I>Alsace-Lorraine 
+</I> (Telephone Books, 1982): and 
+ <I>Poem from a Single Pallet (
+</I> Kelsey St. Press, 1980). Her most recent novel, 
+ <I>In the Middle of Nowhere, 
+</I> was published by The Fiction Collective and an essay on ecstatic writing will soon appear in 
+ <I>Ironwood. 
+</I> She teaches at MIT. </FONT>
+<P>
+<FONT FACE="Palatino, Arial" size="3">
+WORKING NOTES FROM FANNY HOWE</FONT>
+</B> <p><FONT FACE="Palatino, Arial" size="3">This poem sequence is dedicated to Hans Zucker and Ilona Karmel. It has been three years in the making, was originally much longer and more rambling. Its subject is the mystery of suffering and the healing of time, which itself is an enigma. The title refers to the Christian ritual of celebrating the new life on Palm Sunday with the sharing of palms, and the burning of the leftover palms the following year on Ash Wednesday, the day which acknowledges the dispensable nature of individual existence. Between physics and metaphysics there is a pressure zone which is often very explicit in a time when there is 
+ <I>no comfort.
+
+<HR>
+go to<A HREF="fhpalms.html"> Palms </A><BR>
+<A HREF="1184.html">go to this issue's table of contents</A></FONT>
+<HR></td></TR></table>
+<table width=50 border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td><a href="current.html" onMouseOver="turnOn('image1')" onMouseOut="turnOff('image1')"><img name="image1" src="excla.gif" alt="current issue" border=0></a></td>
+
+<td><a href="archive.html" onMouseOver="turnOn('image2')" onMouseOut="turnOff('image2')"><img name="image2" src="plus.gif" alt="archive" border=0></a></td>
+
+<td><a href="authors.html" onMouseOver="turnOn('image3')" onMouseOut="turnOff('image3')"><img name="image3" src="percent.gif" alt="authors & editors" border=0></a></td>
+
+<td><a href="discuss.html" onMouseOver="turnOn('image4')" onMouseOut="turnOff('image4')"><img name="image4" src="gab.gif" alt="discussion" border=0></a></td>
+
+<td><a href="search.html" onMouseOver="turnOn('image5')" onMouseOut="turnOff('image5')"><img name="image5" src="quest.gif" alt="search" border=0></a></td>
+
+<td><a href="announce.html" onMouseOver="turnOn('image6')" onMouseOut="turnOff('image6')"><img name="image6" src="tictac.gif" alt="editors' notes" border=0></a></td>
+
+<td><a href="why.html" onMouseOver="turnOn('image7')" onMouseOut="turnOff('image7')"><img name="image7" src="y.gif" alt="why HOW(ever)" border=0></a></td>
+
+<td><a href="index.html" onMouseOver="turnOn('image8')" onMouseOut="turnOff('image8')"><img name="image8" src="home.gif" alt="home" border=0></a></td>
+
+
+</tr>
+</table>
+
+
+
+</BODY>
+
+</HTML>
+   

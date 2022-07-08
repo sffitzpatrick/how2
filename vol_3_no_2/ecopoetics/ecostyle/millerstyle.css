@@ -1,0 +1,39 @@
+#poem {
+	height: 65em;
+}
+
+#poemone {
+	height: 48.8em;
+}
+
+#poemfour {
+	height: 65em;
+}
+
+#poem p, #poemone p, #poemfour p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 200%;
+	clear: both;
+}
+
+#poemfooter p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 130%;
+	font-style: italic;
+
+}
+
+#poemfooter {
+	border-top: 1px solid #000;
+	padding: 0;
+}
+
+.nextpage {
+	margin: 2em 0 3em 0;
+	border-bottom: 3px double #000;
+	padding-bottom: 1em;
+}
+
+.nextpage {
+	font-size: 1.3em;
+}

@@ -1,0 +1,32 @@
+#poem p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+}
+
+.helvi, .helviduplindfour {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.duplindone {
+	margin-left: 3.0em;
+}
+
+.duplindtwo {
+	margin-left: 6.1em;
+}
+
+.duplindthree {
+	margin-left: 9.1em;
+}
+
+.duplindfour, .helviduplindfour {
+	margin-left: 12.2em;
+}
+
+.duplindfive {
+	margin-left: 15.2em;
+}
+
+.helviduplindtwo {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-left: 6.1em;
+}

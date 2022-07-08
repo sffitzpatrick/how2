@@ -1,0 +1,15 @@
+#mainlogo {
+	border-bottom: 4px double #000;
+}
+
+p.twitter {
+	text-align: left;
+	width: 230px;
+	margin: 100px auto 0 auto;
+	/*padding-left: 74px;
+	padding-top: 20px;
+	height: 44px;
+	background: url(../images/bird.png) no-repeat 0 0;
+	vertical-align: middle;
+	overflow: hidden;*/
+}

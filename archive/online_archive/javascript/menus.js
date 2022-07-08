@@ -1,0 +1,1 @@
+	function setDisplay(objectID, state){		var object = document.getElementById(objectID);	object.style.display = state;	}function toggleDisplay(objectID) {	var object2 = document.getElementById(objectID);	state = object2.style.display;	if (state == 'block')		object2.style.display = 'none';	else		object2.style.display = 'block';}

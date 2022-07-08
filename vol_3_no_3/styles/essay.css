@@ -1,0 +1,37 @@
+@charset "UTF-8";
+#content p {
+	text-align: justify;
+	line-height: 200%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#content p.notesbiog {
+	margin: 2em 0;
+}
+
+.note_author {
+	width: 30em;
+	margin: -1em 0 0 auto;
+}
+
+#content .intro_quotes p.quote_author {
+	margin: 1.5em 0 2em auto;
+	width: 25em;
+	clear: both;
+	font-size: 12px;
+}
+#content .intro_quotes p.quote {
+	margin: 2em 0 0 0;
+	clear: both;
+}
+
+#content pre {
+	line-height: 200%;
+	margin: 1.5em 0 1.5em 0;
+}
+
+#content .essayquotepre {
+	white-space: pre;
+}
+

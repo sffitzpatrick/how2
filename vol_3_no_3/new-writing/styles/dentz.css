@@ -1,0 +1,12 @@
+img {
+	float: left;
+	margin-right: 1.5em;
+}
+
+p.imgpara {
+	margin-top: 3.5em;
+}
+
+a img, img {
+	border: none;
+}

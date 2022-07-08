@@ -1,0 +1,40 @@
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #333;
+}
+
+div.gallery {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	width: 740px;
+	margin: 0 auto;
+}
+
+div#shadowsgallery.gallery{
+	width: 680px;
+}
+
+div.gallery img {
+	float: left;
+	margin: 2px;
+	clear: none;
+}
+
+div.video object {
+	display: block;
+	overflow: hidden;
+	margin: 20px auto 10px auto;
+}
+
+#wrapper #content p.subscribe {
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #333;
+}
+
+p.disclaimer {
+	font-size: 11px;
+}

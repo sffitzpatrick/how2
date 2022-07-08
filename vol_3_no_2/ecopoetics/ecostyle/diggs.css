@@ -1,0 +1,28 @@
+.poem p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 170%;
+}
+
+.medgap {
+	margin-left: 3.2em;
+}
+
+.smallgap {
+	margin-left: 1em;
+}
+
+.tinygap {
+	margin-left: 0.5em;
+}
+
+.largegap {
+	margin-left: 6em;
+}
+
+.coloured {
+	color: #669;
+}
+
+.cour {
+	font-family: "Courier New", Courier, mono;
+}

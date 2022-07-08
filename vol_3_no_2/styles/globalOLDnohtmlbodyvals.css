@@ -1,0 +1,272 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#wrapper {
+	text-align: left;
+	width: 57em;
+	margin: 5px 0 0 5px;
+	padding: 0;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+	width: 900px;
+	height: 150px;
+}
+
+#logo {
+	width: 300px;
+	height: 100px;
+	float: left;
+	background: url(../images/how2_tplft_logo.gif) no-repeat left top;
+	margin: 0;
+	padding: 0;
+}
+
+/* Top navigation */
+
+#topnav {
+	margin: 0;
+	padding: 0;
+	float: right;
+	height: 100px;
+	width: 600px;
+	background-color: #fff;
+}
+
+#topnav ul {
+	list-style-type: none;
+	display: block;
+	margin: 40px 0 0 0;
+	padding: 0;
+}
+
+#topnav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#topnav li a {
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: left;
+	text-indent: -9000px;
+}
+
+#topnav #currentissue a {
+	width: 200px;
+	height: 60px;
+	background: url(../images/current_issue_btn.gif) no-repeat 0 0;
+}
+#topnav #currentissue a:hover {
+	background: url(../images/current_issue_btn.gif) no-repeat 0 -60px;
+}
+
+#topnav #archives a {
+	width: 150px;
+	height: 60px;
+	background: url(../images/archives_btn.gif) no-repeat 0 0;
+}
+#topnav #archives a:hover {
+	background: url(../images/archives_btn.gif) no-repeat 0 -60px;
+}
+
+#topnav #links a {
+	width: 100px;
+	height: 60px;
+	background: url(../images/links_btn.gif) no-repeat 0 0;
+}
+#topnav #links a:hover {
+	background: url(../images/links_btn.gif) no-repeat 0 -60px;
+}
+
+#topnav #search a {
+	width: 130px;
+	height: 60px;
+	background: url(../images/search_btn.gif) no-repeat 0 0;
+}
+#topnav #search a:hover {
+	background: url(../images/search_btn.gif) no-repeat 0 -60px;
+}
+
+
+#banner {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 900px;
+	height: 50px;
+	background: url(../images/banner.gif) no-repeat left top;
+}
+
+#main {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 60em;
+}
+
+/* Side navigation */
+
+#sidebar {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 165px;
+	height: 300px;
+}
+
+
+#sidebar ul {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#sidebar li a {
+	display: block;
+	margin: 5px 10px;
+	padding: 0;
+	float: left;
+	width: 150px;
+	text-align: left;
+	text-indent: -9000px;
+}
+
+#sidebar #ednotes a {
+	height: 30px;
+	background: url(../images/side_ednotes.gif) no-repeat 0 0;
+}
+#sidebar #ednotes a:hover {
+	background: url(../images/side_ednotes.gif) no-repeat 0 bottom;
+}
+
+#sidebar #masthead a {
+	height: 30px;
+	background: url(../images/side_masthead.gif) no-repeat 0 0;
+}
+#sidebar #masthead a:hover {
+	background: url(../images/side_masthead.gif) no-repeat 0 bottom;
+}
+
+#sidebar #calls a {
+	height: 60px;
+	background: url(../images/side_calls.gif) no-repeat 0 0;
+}
+#sidebar #calls a:hover {
+	background: url(../images/side_calls.gif) no-repeat 0 bottom;
+}
+
+#sidebar #howto a {
+	height: 30px;
+	background: url(../images/side_howto.gif) no-repeat 0 0;
+}
+#sidebar #howto a:hover {
+	background: url(../images/side_howto.gif) no-repeat 0 bottom;
+}
+
+#sidebar #updates a {
+	height: 30px;
+	background: url(../images/side_updates.gif) no-repeat 0 0;
+}
+#sidebar #updates a:hover {
+	background: url(../images/side_updates.gif) no-repeat 0 bottom;
+}
+
+#sidebar #postcards a {
+	height: 30px;
+	background: url(../images/side_postcards.gif) no-repeat 0 0;
+}
+#sidebar #postcards a:hover {
+	background: url(../images/side_postcards.gif) no-repeat 0 bottom;
+}
+
+
+#content, #footer {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p, .parastyle {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 1.5em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0 0 0;
+}
+
+a {
+	color: #f00;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {		border-bottom: 3px solid #000;	clear:both;	margin:20px 3%;
+	padding-top: 3px;	border-top: 1px solid #000;	border-right-style: hidden;	border-left-style: hidden;
+}
+
+#content {
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 10px 10px;
+	width: 43em;
+	overflow: visible;
+	border-left: 4px solid #000;
+}
+
+#footer {
+	clear: both;
+	margin: 0;
+	padding: 10px 0;
+	width: 900px;
+	background-color: #fff;
+	border-top: 8px solid #000;
+}
+
+#index strong a, #index a strong {
+	color: #000;
+}
+
+.notesbiog {
+	font-size: 0.8em;
+}
+
+.footnote {	font-size: 70%;	position:relative;	bottom:0.6em;	padding-left:0.4em;	padding-right:0.2em;	/*vertical-align: super;*/}
+
+.essayquote {
+	font-size: 0.8em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.essayquotedoublespace {
+	font-size: 0.8em;
+	margin-left: 10%;
+	margin-right: 10%;
+	line-height: 3em;
+}
+
+
+
+

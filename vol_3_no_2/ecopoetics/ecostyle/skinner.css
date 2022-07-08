@@ -1,0 +1,13 @@
+.skinnerdiv {
+	margin: auto;
+	width: 65em;
+}
+
+.skinnerdiv p {
+	font-size: 1.3em;
+}
+
+.dotspace {
+	letter-spacing: 1.5em;
+	text-indent: 3.5em;
+}

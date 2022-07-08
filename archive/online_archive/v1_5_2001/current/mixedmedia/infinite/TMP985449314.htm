@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Le Bandit</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_initTimelines() {
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(2);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 15;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns)
+        document.MM_Time[0][0].obj = document["Layer1"];
+    else
+        document.MM_Time[0][0].obj = document.all ? document.all["Layer1"] : null;
+    document.MM_Time[0][0].keyFrames = new Array(1, 15, 45);
+    document.MM_Time[0][0].values = new Array(1);
+    document.MM_Time[0][0].values[0] = new Array("hidden","visible","visible");
+    document.MM_Time[0][0].values[0].prop = "visibility";
+    if (!ns)
+        document.MM_Time[0][0].values[0].prop2 = "style";
+    document.MM_Time[0][1] = new String("sprite");
+    document.MM_Time[0][1].slot = 2;
+    if (ns)
+        document.MM_Time[0][1].obj = document["Layer2"];
+    else
+        document.MM_Time[0][1].obj = document.all ? document.all["Layer2"] : null;
+    document.MM_Time[0][1].keyFrames = new Array(1, 30, 45);
+    document.MM_Time[0][1].values = new Array(1);
+    document.MM_Time[0][1].values[0] = new Array("hidden","visible","visible");
+    document.MM_Time[0][1].values[0].prop = "visibility";
+    if (!ns)
+        document.MM_Time[0][1].values[0].prop2 = "style";
+    document.MM_Time[0].lastFrame = 45;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="MM_timelinePlay('Timeline1')">
+<div id="Layer1" style="position:absolute; left:118px; top:56px; width:97px; height:32px; z-index:1; visibility: hidden"><img src="masculin.gif" width="98" height="30"></div>
+<div id="Layer2" style="position:absolute; left:123px; top:90px; width:97px; height:28px; z-index:2; visibility: hidden"><img src="feminine.gif" width="98" height="30"></div>
+<div align="center"></div>
+<table width="500" border="0" cellpadding="0" align="center" bgcolor="#FFFFFF" bordercolor="#FFFF99" bordercolorlight="#FFFF99" bordercolordark="#FFFF99">
+  <tr bordercolor="#FFFF66"> 
+    <td width="49%" valign="top" align="left" bgcolor="#FFFFFF" height="273"> 
+      <div align="center"><img src="school.gif" width="218" height="265"></div>
+    </td>
+    <td width="51%" align="center" valign="middle" bgcolor="#FFFFFF" height="273"> 
+      <p align="left">&nbsp;</p>
+      <p align="left"><font size="3" color="#993333"><b><font color="#CC6633">The 
+        puppy was a female so they insisted she could not be s'appelled Bandit. 
+        Did she not understand? Le Bandit - there was no La Bandit. The dog remained 
+        Bandit until it was given away from under to an immediate name change. 
+        This is an insistent memory which frames all other events. Only the frame 
+        is not so wide for this to be true. There is an outside space. </font></b></font></p>
+      <p align="right"><a href="#" onClick="MM_openBrWindow('infinite7.htm','no','width=160,height=375')"><img src="yelarrow.gif" width="28" height="28" border="0"></a></p>
+      </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

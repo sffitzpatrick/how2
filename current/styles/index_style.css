@@ -1,0 +1,97 @@
+#tocwrapper {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#tocmain {
+	width: 650px;
+	margin: 0 20px 50px 20px;
+	padding: 0;
+	border: 1px solid #000;
+	float: left;
+	background: url(../images/toc_centre.gif) repeat-y -3px 0;
+}
+
+#tocmain div {
+	width: 325px;
+}
+
+#toccolone {
+	float: left;
+}
+
+#toccoltwo {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* Text styles */
+
+.toccaption, .tocheading, .tocsubheading, .tocinfo {
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.toccaption {
+	text-align: center;
+	font-size: 1.1em;
+	color: #666;
+}
+
+.tocsubheading {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.tocinfo {
+	font-size: 1.3em;
+	text-align: left;
+}
+
+.tocheading a, .tocheading a:visited {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.tocheading a, .tocheading a:visited, .tocotherheading a, .tocotherheading a:visited {
+	color: #000!important;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 1.8em;
+	line-height: 150%;
+}
+
+.tocotherheading {
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+#tocother .tocinfo {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#tocother .tocotherheading {
+	margin-top: 5px;
+}
+
+.tocheading a:hover, .tocotherheading a:hover {
+	text-decoration: none;
+	color: #f00!important;
+}
+
+.disclaimer {
+	font-size: 0.8em;
+	color: #666;
+	width: 50em;
+	margin: auto;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}

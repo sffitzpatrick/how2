@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Flamingoes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+
+function MM_timelineGoto(tmLnName, fNew, numGotos) { //v2.0
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,lastKeyFr,propNum,theObj;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (numGotos != null)
+    if (tmLn.gotoCount == null) tmLn.gotoCount = 1;
+    else if (tmLn.gotoCount++ >= numGotos) {tmLn.gotoCount=0; return}
+  jmpFwd = (fNew > tmLn.curFrame);
+  for (i = 0; i < tmLn.length; i++) {
+    sprite = (jmpFwd)? tmLn[i] : tmLn[(tmLn.length-1)-i]; //count bkwds if jumping back
+    if (sprite.charAt(0) == "s") {
+      numKeyFr = sprite.keyFrames.length;
+      firstKeyFr = sprite.keyFrames[0];
+      lastKeyFr = sprite.keyFrames[numKeyFr - 1];
+      if ((jmpFwd && fNew<firstKeyFr) || (!jmpFwd && lastKeyFr<fNew)) continue; //skip if untouchd
+      for (keyFrm=1; keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]; keyFrm++);
+      for (j=0; j<sprite.values.length; j++) {
+        props = sprite.values[j];
+        if (numKeyFr == props.length) propNum = keyFrm-1 //keyframes only
+        else propNum = Math.min(Math.max(0,fNew-firstKeyFr),props.length-1); //or keep in legal range
+        if (sprite.obj != null) {
+          if (props.prop2 == null) sprite.obj[props.prop] = props[propNum];
+          else        sprite.obj[props.prop2][props.prop] = props[propNum];
+      } }
+    } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+  }
+  tmLn.curFrame = fNew;
+  if (tmLn.ID == 0) eval('MM_timelinePlay(tmLnName)');
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FF9999">
+<p><font color="#FFFFCC">When she was in Mexico she swam with a drowned man. It 
+  was a small sea town and her friend didn't like it because the water did not 
+  move. But they had already paid for the hotel. The heat rose off the sea but 
+  it was not turquoise like the other coast. They went in the water and she was 
+  afraid because she could not see all the way down. Her friend was from Manhattan 
+  and laughed at her. Out of the corner of her eye she could see a body. She asked 
+  her friend if she thought he was all right. Maybe he is meditating, said her 
+  friend. They did not want to interrupt with their foreign unknowingness. But 
+  she kept watching and she said to her friend, I haven't seen him take a breath. 
+  Perhaps it is some Zen floating technique, said her friend, but I am from New 
+  York and I don't want to get involved. She herself slowly swam closer to the 
+  body. She was afraid because she knew he was dead and she was afraid of the 
+  heaviness of a dead body. And when she was close, she saw it was true that the 
+  body was heavy with it's own death, and so she turned to the beach and she yelled 
+  to a man, &quot;un hombre muerte, un hombre muerte.&quot; He swam out to the 
+  body and dragged it to the shore by the hair. It stayed there for five hours, 
+  surrounded by onlookers, until an ambulance came. She shot super 8 footage of 
+  this scene, footage which she has never looked at. An hour after the dead man 
+  was dragged to the shore two men offered them a half price boat ride to see 
+  the flamingoes. She and her friend laughed and asked if this was the dead man 
+  special. The flamingoes were spectacular and she has looked at this footage.</font></p>
+<div align="center">
+  <pre>             <img src="birds3.gif" width="271" height="144" name="Image1" alt="birds">           <a href="infinite12.htm"><img src="crmarrow.gif" width="28" height="28" border="0"></a> </pre>
+</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<config>
+    <param name="flv" value="Harryman_sc1.flv"/>
+    <param name="title" value="Performing Objects Stationed in the Subworld"/>
+    <param name="startimage" value="media/harryman-still.jpg"/>
+    <param name="bgcolor1" value="f00000"/>
+    <param name="bgcolor2" value="660000"/>
+    <param name="showstop" value="1"/>
+    <param name="showvolume" value="1"/>
+    <param name="showtime" value="1"/>
+    <param name="playercolor" value="660000"/>
+    <param name="playeralpha" value="75"/>
+    <param name="buttonovercolor" value="ffffff"/>
+    <param name="sliderovercolor" value="ffffff"/>
+    <param name="showiconplay" value="1"/>
+    <param name="iconplaycolor" value="660000"/>
+    <param name="iconplaybgcolor" value="ffffff"/>
+</config>

@@ -1,0 +1,71 @@
+#poemmarg {
+	margin: 15em;
+	/*margin-left: 15em;
+	margin-right: 15em;*/
+}
+
+#poemfour, #poemcramped {
+	margin-top: 15em;
+	margin-bottom: 15em;
+	margin-left: 14em;
+}
+
+#poem p, #poemone p, #poemfour p, #poemmarg p, #poemcramped p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	clear: both;
+}
+
+#poem p, #poemone p, #poemfour p, #poemmarg p {
+	line-height: 200%;
+}
+
+#poemcramped p {
+	line-height: 100%;
+}
+
+#poemfooter p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 130%;
+	font-style: italic;
+
+}
+
+#poemfooter {
+	border-top: 1px solid #000;
+	padding: 0;
+}
+
+.nextpage {
+	margin: 2em 0 3em 0;
+	border-bottom: 3px double #000;
+	padding-bottom: 1em;
+}
+
+.nextpage {
+	font-size: 1.3em;
+}
+
+table.tableone {
+	font-size: 100%;
+	width: 30em;
+	margin-left: 10em;
+}
+
+td.tableonecolone, td.tableonecoltwo {
+	font-size: 100%;
+	width: 15em;
+	white-space: nowrap;
+}
+
+table.tabletwo {
+	font-size: 100%;
+	width: 20em;
+}
+
+td.tabletwocolone, td.tabletwocoltwo {
+	font-size: 100%;
+	width: 10em;
+	white-space: nowrap;
+}
+
+

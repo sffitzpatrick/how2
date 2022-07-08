@@ -1,0 +1,242 @@
+<html>
+<head>
+<title>in dialogue</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_timelinePlay(tmLnName, myID) { //v1.2
+  //Copyright 1997 Macromedia, Inc. All rights reserved.
+  var i,j,tmLn,props,keyFrm,sprite,numKeyFr,firstKeyFr,propNum,theObj,firstTime=false;
+  if (document.MM_Time == null) MM_initTimelines(); //if *very* 1st time
+  tmLn = document.MM_Time[tmLnName];
+  if (myID == null) { myID = ++tmLn.ID; firstTime=true;}//if new call, incr ID
+  if (myID == tmLn.ID) { //if Im newest
+    setTimeout('MM_timelinePlay("'+tmLnName+'",'+myID+')',tmLn.delay);
+    fNew = ++tmLn.curFrame;
+    for (i=0; i<tmLn.length; i++) {
+      sprite = tmLn[i];
+      if (sprite.charAt(0) == 's') {
+        if (sprite.obj) {
+          numKeyFr = sprite.keyFrames.length; firstKeyFr = sprite.keyFrames[0];
+          if (fNew >= firstKeyFr && fNew <= sprite.keyFrames[numKeyFr-1]) {//in range
+            keyFrm=1;
+            for (j=0; j<sprite.values.length; j++) {
+              props = sprite.values[j]; 
+              if (numKeyFr != props.length) {
+                if (props.prop2 == null) sprite.obj[props.prop] = props[fNew-firstKeyFr];
+                else        sprite.obj[props.prop2][props.prop] = props[fNew-firstKeyFr];
+              } else {
+                while (keyFrm<numKeyFr && fNew>=sprite.keyFrames[keyFrm]) keyFrm++;
+                if (firstTime || fNew==sprite.keyFrames[keyFrm-1]) {
+                  if (props.prop2 == null) sprite.obj[props.prop] = props[keyFrm-1];
+                  else        sprite.obj[props.prop2][props.prop] = props[keyFrm-1];
+        } } } } }
+      } else if (sprite.charAt(0)=='b' && fNew == sprite.frame) eval(sprite.value);
+      if (fNew > tmLn.lastFrame) tmLn.ID = 0;
+  } }
+}
+
+function MM_initTimelines() {
+    //MM_initTimelines() Copyright 1997 Macromedia, Inc. All rights reserved.
+    var ns = navigator.appName == "Netscape";
+    document.MM_Time = new Array(1);
+    document.MM_Time[0] = new Array(7);
+    document.MM_Time["Timeline1"] = document.MM_Time[0];
+    document.MM_Time[0].MM_Name = "Timeline1";
+    document.MM_Time[0].fps = 3;
+    document.MM_Time[0][0] = new String("sprite");
+    document.MM_Time[0][0].slot = 1;
+    if (ns)
+        document.MM_Time[0][0].obj = document["Layer1"];
+    else
+        document.MM_Time[0][0].obj = document.all ? document.all["Layer1"] : null;
+    document.MM_Time[0][0].keyFrames = new Array(1, 14);
+    document.MM_Time[0][0].values = new Array(3);
+    document.MM_Time[0][0].values[0] = new Array("visible","visible");
+    document.MM_Time[0][0].values[0].prop = "visibility";
+    if (!ns)
+        document.MM_Time[0][0].values[0].prop2 = "style";
+    document.MM_Time[0][0].values[1] = new Array(108,103,98,93,89,84,79,74,69,64,60,55,50,45);
+    document.MM_Time[0][0].values[1].prop = "left";
+    document.MM_Time[0][0].values[2] = new Array(91,90,89,88,87,86,85,84,83,82,81,80,79,78);
+    document.MM_Time[0][0].values[2].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][0].values[1].prop2 = "style";
+        document.MM_Time[0][0].values[2].prop2 = "style";
+    }
+    document.MM_Time[0][1] = new String("sprite");
+    document.MM_Time[0][1].slot = 2;
+    if (ns)
+        document.MM_Time[0][1].obj = document["Layer2"];
+    else
+        document.MM_Time[0][1].obj = document.all ? document.all["Layer2"] : null;
+    document.MM_Time[0][1].keyFrames = new Array(1, 15);
+    document.MM_Time[0][1].values = new Array(3);
+    document.MM_Time[0][1].values[0] = new Array(89,86,83,80,77,74,71,68,64,61,58,55,52,49,46);
+    document.MM_Time[0][1].values[0].prop = "left";
+    document.MM_Time[0][1].values[1] = new Array(96,98,101,103,105,108,110,113,115,117,120,122,124,127,129);
+    document.MM_Time[0][1].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][1].values[0].prop2 = "style";
+        document.MM_Time[0][1].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][1].values[2] = new Array("visible","visible");
+    document.MM_Time[0][1].values[2].prop = "visibility";
+    if (!ns)
+        document.MM_Time[0][1].values[2].prop2 = "style";
+    document.MM_Time[0][2] = new String("sprite");
+    document.MM_Time[0][2].slot = 3;
+    if (ns)
+        document.MM_Time[0][2].obj = document["Layer3"];
+    else
+        document.MM_Time[0][2].obj = document.all ? document.all["Layer3"] : null;
+    document.MM_Time[0][2].keyFrames = new Array(1, 16);
+    document.MM_Time[0][2].values = new Array(2);
+    document.MM_Time[0][2].values[0] = new Array(101,97,94,90,86,83,79,75,72,68,64,61,57,53,50,46);
+    document.MM_Time[0][2].values[0].prop = "left";
+    document.MM_Time[0][2].values[1] = new Array(93,99,105,110,116,122,128,134,139,145,151,157,163,168,174,180);
+    document.MM_Time[0][2].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][2].values[0].prop2 = "style";
+        document.MM_Time[0][2].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][3] = new String("sprite");
+    document.MM_Time[0][3].slot = 4;
+    if (ns)
+        document.MM_Time[0][3].obj = document["Layer4"];
+    else
+        document.MM_Time[0][3].obj = document.all ? document.all["Layer4"] : null;
+    document.MM_Time[0][3].keyFrames = new Array(1, 17);
+    document.MM_Time[0][3].values = new Array(2);
+    document.MM_Time[0][3].values[0] = new Array(106,102,99,95,91,87,84,80,76,72,68,65,61,57,53,50,46);
+    document.MM_Time[0][3].values[0].prop = "left";
+    document.MM_Time[0][3].values[1] = new Array(90,99,108,116,125,134,143,151,160,169,178,186,195,204,213,221,230);
+    document.MM_Time[0][3].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][3].values[0].prop2 = "style";
+        document.MM_Time[0][3].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][4] = new String("sprite");
+    document.MM_Time[0][4].slot = 5;
+    if (ns)
+        document.MM_Time[0][4].obj = document["Layer5"];
+    else
+        document.MM_Time[0][4].obj = document.all ? document.all["Layer5"] : null;
+    document.MM_Time[0][4].keyFrames = new Array(1, 18);
+    document.MM_Time[0][4].values = new Array(2);
+    document.MM_Time[0][4].values[0] = new Array(95,92,89,87,84,81,78,75,72,70,67,64,61,58,55,53,50,47);
+    document.MM_Time[0][4].values[0].prop = "left";
+    document.MM_Time[0][4].values[1] = new Array(92,103,114,125,136,147,158,169,180,192,203,214,225,236,247,258,269,280);
+    document.MM_Time[0][4].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][4].values[0].prop2 = "style";
+        document.MM_Time[0][4].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][5] = new String("sprite");
+    document.MM_Time[0][5].slot = 6;
+    if (ns)
+        document.MM_Time[0][5].obj = document["Layer7"];
+    else
+        document.MM_Time[0][5].obj = document.all ? document.all["Layer7"] : null;
+    document.MM_Time[0][5].keyFrames = new Array(1, 19);
+    document.MM_Time[0][5].values = new Array(3);
+    document.MM_Time[0][5].values[0] = new Array(98,95,92,90,87,84,81,78,75,73,70,67,64,61,58,55,53,50,47);
+    document.MM_Time[0][5].values[0].prop = "left";
+    document.MM_Time[0][5].values[1] = new Array(93,106,119,133,146,159,172,186,199,212,225,238,252,265,278,291,305,318,331);
+    document.MM_Time[0][5].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][5].values[0].prop2 = "style";
+        document.MM_Time[0][5].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][5].values[2] = new Array("visible","visible");
+    document.MM_Time[0][5].values[2].prop = "visibility";
+    if (!ns)
+        document.MM_Time[0][5].values[2].prop2 = "style";
+    document.MM_Time[0][6] = new String("sprite");
+    document.MM_Time[0][6].slot = 7;
+    if (ns)
+        document.MM_Time[0][6].obj = document["Layer6"];
+    else
+        document.MM_Time[0][6].obj = document.all ? document.all["Layer6"] : null;
+    document.MM_Time[0][6].keyFrames = new Array(1, 21);
+    document.MM_Time[0][6].values = new Array(3);
+    document.MM_Time[0][6].values[0] = new Array(97,95,92,90,87,85,82,80,77,75,72,69,67,65,62,60,57,55,52,50,47);
+    document.MM_Time[0][6].values[0].prop = "left";
+    document.MM_Time[0][6].values[1] = new Array(100,114,128,142,156,170,184,198,212,226,241,255,269,283,297,311,325,339,353,367,381);
+    document.MM_Time[0][6].values[1].prop = "top";
+    if (!ns) {
+        document.MM_Time[0][6].values[0].prop2 = "style";
+        document.MM_Time[0][6].values[1].prop2 = "style";
+    }
+    document.MM_Time[0][6].values[2] = new Array("visible","visible");
+    document.MM_Time[0][6].values[2].prop = "visibility";
+    if (!ns)
+        document.MM_Time[0][6].values[2].prop2 = "style";
+    document.MM_Time[0].lastFrame = 21;
+    for (i=0; i<document.MM_Time.length; i++) {
+        document.MM_Time[i].ID = null;
+        document.MM_Time[i].curFrame = 0;
+        document.MM_Time[i].delay = 1000/document.MM_Time[i].fps;
+    }
+}
+//-->
+</script>
+<script language="JavaScript">
+<!--
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head>
+
+<body bgcolor="#FF9999" onLoad="MM_timelinePlay('Timeline1')" link="#FFFFFF" vlink="#FFFFFF" text="#FFFFFF" alink="#FFFFFF">
+<div id="Layer1" style="position:absolute; left:108px; top:91px; width:454px; height:49px; z-index:1; visibility: visible"><i><font color="#FFFFFF">I 
+  saw all the mirrors in the planet and none reflected me </font></i><font color="#FFFFFF">. 
+  <a href="footnotes.htm" target="_blank"> <font size="2">19 </font></a></font></div>
+<div id="Layer2" style="position:absolute; left:89px; top:96px; width:525px; height:49px; z-index:2; visibility: visible"> 
+  <p><i><font color="#FFFFFF">Narcissus did not drown in her own reflection, but 
+    rather the more she looked at her reflection the more it faded away.</font></i><font color="#FFFFFF" size="2"><a href="footnotes.htm" target="_blank">20</a></font></p>
+  </div>
+<div id="Layer3" style="position:absolute; left:101px; top:93px; width:303px; height:49; z-index:3; visibility: visible"><i><font color="#FFFFFF">His 
+  language has no faculties of place.</font></i><font color="#FFFFFF" size="2"><a href="footnotes.htm" target="_blank">21</a></font></div>
+<div id="Layer4" style="position:absolute; left:106px; top:90px; width:446; height:49px; z-index:4; visibility: visible"><i><font color="#FFFFFF">The 
+  muse of modern literature arose, and her tongue had been loosened in the melting-pot.</font></i><font color="#FFFFFF"><font size="2"><a href="footnotes.htm" target="_blank">22</a></font></font></div>
+<div id="Layer5" style="position:absolute; left:95px; top:92px; width:542px; height:49px; z-index:5; visibility: visible"><i><font color="#FFFFFF">This 
+  discomforting language of fragmentation offers no easy gestalt solution: the 
+  certainties of didactic discourse are hurled into the erosion of the poetic 
+  principle.</font></i><font size="2" color="#FFFFFF"><a href="footnotes.htm" target="_blank">23</a></font></div>
+<div id="Layer6" style="position:absolute; left:97px; top:100px; width:275px; height:49px; z-index:6; visibility: visible"> 
+  <p><i><font color="#FFFFFF">one text must lead directly to the <a href="infinite21.htm">next</a> 
+    </font></i><font color="#FFFFFF"><a href="footnotes.htm">24</a></font><i><font color="#FFFFFF"> 
+    </font></i></p>
+  </div>
+<div id="Layer7" style="position:absolute; left:98px; top:93px; width:363px; height:49px; z-index:7; visibility: visible"><font color="#FFFFFF">A 
+  map is only of use if one knows where one is going.</font> </div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="right"> <a href="#" onClick="MM_openBrWindow('infindex.html','index','width=150,height=420')">INDEX</a></p>
+</body>
+</html>

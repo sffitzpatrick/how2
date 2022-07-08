@@ -1,0 +1,19 @@
+
+
+pre {
+	font-family: Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+}
+
+.degrees {
+	color: #a90000;
+	font-size: 80px;
+}
+
+#alexanderpoem img, #alexanderpoemgold img {
+	margin: 0 0 5em 0;
+}
+
+#alexanderpoemgold {
+	margin-left: 14em;
+	padding: 0;
+}

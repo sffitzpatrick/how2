@@ -1,0 +1,36 @@
+#poem p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 170%;
+}
+
+.medgap {
+	margin-left: 3.2em;
+}
+
+.smallgap {
+	margin-left: 1em;
+}
+
+.tinygap {
+	margin-left: 0.5em;
+}
+
+.largegap {
+	margin-left: 6em;
+}
+
+.xxxxx {
+	letter-spacing: 0.4em;
+}
+
+.xxxxxtwo {
+	letter-spacing: 0.28em;
+}
+
+.twoem {
+	margin-left: 2em;
+}
+
+.fiveem {
+	margin-left: 5em;
+}

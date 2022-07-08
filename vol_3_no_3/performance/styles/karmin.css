@@ -1,0 +1,133 @@
+#content p {
+	line-height: 200%;
+}
+
+#content div.workingnote p {
+	text-align: justify;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#content div.picandcaption p {
+	margin: 5px auto;
+	text-align: center;
+	font-size: 11px;
+	line-height: 150%;
+}
+
+#content h3 {
+	text-transform: uppercase;
+}
+
+#content h3.lowercase {
+	text-transform: none;
+}
+
+#content div.letter {
+	display: block;
+	overflow: hidden;
+	width: 75%;
+	text-align: justify;
+	margin: 0 auto 0 0;
+}
+
+div.textcontainer {
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+
+div.textcontainer div {
+	width: 48%;
+}
+
+/* TOP LINKS */
+
+div.toplinks {
+	position: relative;
+}
+
+div.toplinks ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 690px;
+}
+
+#content div.toplinks ul li {
+	list-style-type: none;
+	margin: 5px;
+	padding: 0;
+	float: left;
+	display: inline;
+}
+
+#content div.toplinks ul li a {
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: inline;
+	text-align: left;
+	text-indent: -9999em;
+	border: 2px solid #000;
+}
+#content div.toplinks ul li a#poem1 {
+	background: url(../images/karmin/tn-karmin-1.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem2 {
+	background: url(../images/karmin/tn-karmin-2.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem3 {
+	background: url(../images/karmin/tn-karmin-3.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem4 {
+	background: url(../images/karmin/tn-karmin-4.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem5 {
+	background: url(../images/karmin/tn-karmin-5.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem6 {
+	background: url(../images/karmin/tn-karmin-6.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem7 {
+	background: url(../images/karmin/tn-karmin-7.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem8 {
+	background: url(../images/karmin/tn-karmin-8.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem9 {
+	background: url(../images/karmin/tn-karmin-9.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem10 {
+	background: url(../images/karmin/tn-karmin-12.jpg) no-repeat 0 0;
+}
+#content div.toplinks ul li a#poem11 {
+	background: url(../images/karmin/tn-karmin-10.jpg) no-repeat 0 0;
+}
+
+#content div.toplinks ul li a:hover {
+	border: 2px solid #f00;
+}
+
+div.toplinks div.key {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	right: 21px;
+	top: 119px;
+	z-index: 100;
+	border: 2px solid #666;
+}
+
+div.toplinks div.key p {
+	width: 80px;
+	height: 65px;
+	margin: 25px 10px 10px 10px;
+	font-size: 12px;
+}
+
+div.poemscontainer {
+	clear: both;
+}

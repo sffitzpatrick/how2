@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Search HOW2</title>
+
+    <script src="http://www.google.com/uds/api?file=uds.js&amp;v=1.0&amp;key=ABQIAAAAc58Fblwuy6b2A5BygetttxTzxtnM4wOT3xPrq8W6DbMdsd7kNhScnynO16xIkmbttEb_FJ66fKF7Gw" type="text/javascript"></script>
+    <script language="Javascript" type="text/javascript">
+    //<![CDATA[
+
+    function OnLoad() {
+      // Create a search control
+      var searchControl = new GSearchControl();
+
+
+
+
+// site restricted web search with custom label
+// and class suffix
+var siteSearch = new GwebSearch();
+        var options = new GsearcherOptions();
+options.setExpandMode(GSearchControl.EXPAND_MODE_OPEN);
+searchControl.setResultSetSize(GSearch.LARGE_RESULTSET); 
+
+siteSearch.setUserDefinedLabel("HOW(ever) and HOW2");
+siteSearch.setUserDefinedClassSuffix("siteSearch");
+siteSearch.setSiteRestriction("asu.edu/pipercwcenter/how2journal/");
+searchControl.addSearcher(siteSearch, options);
+
+ 
+
+      // Tell the searcher to draw itself and tell it where to attach
+      searchControl.draw(document.getElementById("searchcontrol"));
+
+      // Execute an inital search
+      searchControl.execute("");
+    }
+    GSearch.setOnLoadCallback(OnLoad);
+
+    //]]>
+    </script>
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+<table width="750" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="150" valign="top" background="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/media/blackbar.gif"><p>&nbsp;</p>
+      <p align="left" class="style1"><a href="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/index.html" target="_top" class="textNav">Home</a></p>
+      <p align="left" class="style1"><br>
+          <a href="http://how2postcard.blogspot.com" target="_top" class="textNav">Postcards</a></p>
+      <p align="left" class="style1"><br>
+          <a href="http://how2updates.blogspot.com" target="_top" class="textNav">Updates</a></p>
+      <p align="left" class="style1"><a href="http://how2calls.blogspot.com" target="_top" class="textNav">Calls for Submissions</a></p>
+      <p align="left" class="style1"><a href="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/discuss.htm" target="_top" class="textNav">Links</a><br>
+          <span class="style3">(UPDATED) </span></p>
+      <p align="left" class="style1"><a href="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/search.html" target="_top" class="textNav">Search HOW2 </a><br>
+        <span class="style3">(NEW) </span></p>
+      <p align="left" class="style1"><a href="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/intro.htm" target="_top" class="textNav">Enter How2</a></p>      <p><img src="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/media/spacer.gif" width="150" height="5"></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+    <td width="600" valign="top"><p>&nbsp;</p>
+      <p><img src="file:///Macintosh HD/Users/johnsparrow/Poetry/How2/Site/stadler_center/Old Index Files/media/logo_black.gif" width="154" height="55" style="margin-left:55px"></p>
+      <p align="justify" class="TITLE1"  style="margin-left:60px">Search HOW2 </p>
+    <p align="justify">Type into the search bar below to search HOW2.</p>      
+    <div id="searchcontrol"/>
+	</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#content #spacedquoteone.essayquote p.lineone {
+	word-spacing: 1.3em;
+}
+
+#content #spacedquoteone.essayquote p.linetwo {
+	word-spacing: 1.6em;
+}
+
+#content #spacedquoteone.essayquote p.linethree {
+	word-spacing: 1.6em;
+}
+
+#content #spacedquoteone.essayquote p.linefour {
+	margin-left: 6.2em;
+}
+
+#content #spacedquoteone.essayquote p.linefive {
+	word-spacing: 1.7em;
+}
+
+.cheektable td {
+	width: 10em;
+	padding: 0;
+	text-align: center;
+}
+
+table.cheektable {
+	margin-left: 10%;
+}

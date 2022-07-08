@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>-- HOW2</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles/popup.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+<div id="popupheader"><!-- TemplateBeginEditable name="OptionalRegion1" -->OptionalRegion1
+<hr />
+<p>&nbsp;</p>
+<!-- TemplateEndEditable --></div><div id="popupcontent"><!-- TemplateBeginEditable name="contentRegion" -->contentRegion<!-- TemplateEndEditable --></div><div id="popupfooter"><!-- TemplateBeginEditable name="OptionalFooter" -->
+<hr />
+<p>OptionalFooter</p>
+<!-- TemplateEndEditable --></div>
+<div id="popupclose">
+  <hr />
+  <p align="right"><a href="javascript:window.close();">Close window</a></p>
+</div>
+</body>
+</html>

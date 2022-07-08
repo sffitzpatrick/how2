@@ -1,0 +1,36 @@
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin: 0;
+	padding: 1em;
+	/*height: 92%;
+	width: 92%;
+	border: 4px double #000;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 20px 0 0 0;
+}
+
+#popupcontent, p {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin: 1.5em 0;
+}
+
+a {
+	color: #f00;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#popupclose p, #popupfooter p {
+	font-size: 0.7em;
+}
+
+hr {		border-bottom: 3px solid #000;	clear:both;	margin:20px 3%;
+	padding-top: 3px;	border-top: 1px solid #000;	border-right-style: hidden;	border-left-style: hidden;
+}

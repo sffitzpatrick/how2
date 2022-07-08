@@ -1,0 +1,13 @@
+.poem p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 170%;
+}
+
+.boxed {
+	margin: 0 auto;
+	width: 35em;
+}
+
+.gap {
+	margin-left: 1.3em;
+}

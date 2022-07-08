@@ -1,0 +1,27 @@
+body {	text-align: center;	margin: 0;	padding: 0;	font: 12px Georgia, "Times New Roman", Times, serif;}hr {	height: 0px;	border:none;	border-bottom: 3px double #000;	width: 95%;	margin-top: 30px;	margin-bottom: 30px;}.sub_date, .sub_info, .sub_info_index {	font-family: "Courier New", Courier, mono;	margin-left:15px;	line-height: 100%;	padding-bottom: 10px;	padding-left: 5px;	font-style: italic;}.sub_date {	margin-top: 15px;}.sub_info {	margin-bottom: 30px;	margin-right: 500px;	border-bottom: 1px dotted #000;	border-right: 1px dotted #000;}
+
+.sub_info_index {	margin-bottom: 30px;
+	padding-bottom: 10px;	margin-right: 500px;	border-bottom: 1px dotted #000;}
+.sub_content img {	border: 1px solid #ccc;	padding: 5px;
+	margin: 20px auto;}a:link {	color: #f00;	text-decoration: underline;}a:hover {	text-decoration: none;}a:visited {	color: #f00;}#wrapper {	text-align: left;	width: 820px;	padding: 0;	margin: 0 auto;	min-height: 800px;}#nav {	width: 820px;	float: left;	margin: 5px 0 0;	padding: 0;	background-color: #fff;}#nav a {	float: left;	text-indent: 0px;	border: 1px solid #f00;	color: #f00;	text-decoration: underline;	background-color: #000;	height: 30px;	padding: 1em 0 0 10px;}#nav a:hover {	background-color: #fff;	text-decoration: none;	border-color: #000;}#nav ul {	float: left;	margin: 0 0 0 40px;	padding: 0;}#nav li {	display: inline;	list-style-type: none;	list-style-image: none;	float: left;	margin-right: 10px;}#chapters a{	width: 7em;}#about a {	width: 12em;}#submit a {	width: 13em;}#credits a {	width: 10.5em;}#biogs a {	width: 8em;}#subnav {	width: 200px;	float: left;	margin: 5px 0 10px;	padding: 0;	height: 30px;	overflow: visible;	z-index: 3;	position: relative;}#subnav a {	float: left;	padding: 0.7em 0 0.8em 5px;	color: #f00;	text-decoration: underline;	width: 200px;	background-color: #fff;	z-index: 2;	border-bottom: 1px solid #000;	border-left: 1px solid #000;	border-right: 1px solid #000;}.firstsub {	border-top: 1px solid #000;}#subnav a:hover {	background-color: #000;	text-decoration: none;}#subnav ul {	float: left;	margin: 0 0 0 40px;	padding: 0;}#subnav li {	display: block;	list-style-type: none;	list-style-image: none;	margin-right: 10px;	float: left;}#subabout, #subsubmit, #subchapters {	display: none;}#subchapters {	position: absolute;	left: 0;}#subabout {	position: absolute;	left: 8.85em;}#subsubmit {	position: absolute;	left: 22.7em;}/*Content*/#content {	clear: both;	z-index: 0;	width: 810px;	background-color: #fff;	margin-left: 5px;	margin-bottom: 20px;	margin-right: 5px;	display: block;}#content p {	z-index: 0;}.media {	border: 1px solid #333;	padding: 5px;	margin: 0 auto;	width: 800px;	z-index: 0;}#indextitle p{	margin-top: 200px;	margin-left: 150px;	text-align: left;	color: #000;	font: bold 3.5em Georgia, "Times New Roman", Times, serif;	display: none;}#indextitle {	background: transparent url(../media/title.gif) no-repeat left top;	height: 600px;	width: 800px;	padding: 0;	margin: -5px;	}#footer {	z-index: -2;	clear: both;	border-top: 3px double #333;	margin-top: 20px;}#footer p {	margin-left: 2em;	font-size: 16px;}.media h2, .media h1 {	margin-top: 1em;	margin-bottom: 2em;	margin-left: 1em;}.media p {	font-size: 14px;	line-height: 200%;	margin: 0 3em 1.5em;	clear: both;}img.creditphoto {	margin-left: 6em;	margin-bottom: 1em;}
+
+.pf_enter {
+	text-align: right;
+	font: bold 28px Georgia, "Times New Roman", Times, serif;
+}
+
+.pf_enter a:link, .pf_enter a:visited {
+	color: #f00;
+	text-decoration: none;
+}
+
+.pf_enter a:hover {
+	color: #000;
+}
+
+.pf_enter a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.footnote {	font-size: 70%;	position:relative;	bottom:0.6em;	padding-left:0.4em;	padding-right:0.2em;	/*vertical-align: super;*/}

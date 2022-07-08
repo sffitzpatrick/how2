@@ -1,0 +1,107 @@
+#content div.imgcontainer {
+	display: block;
+	overflow: hidden;
+	width: 650px;
+	margin: 3em auto;
+}
+
+body.family #content div.imgcontainer {
+	background: url(images/familyportrait.jpg) 0 0;
+	height: 681px;
+}
+
+body.pipe #content div.imgcontainer {
+	
+	height: 869px;
+	background-image: url(images/pipedream.jpg);
+}
+
+#content div.imgcontainer p {
+	font-family: "Times New Roman", Times, Georgia, serif;
+	line-height: 130%;
+	text-align: left;
+	visibility: hidden;
+}
+
+body.family #content div.imgcontainer p {
+	text-indent: 3em;
+}
+
+body.family #content div.imgcontainer p {
+	color: #000;
+	margin: 20px 0 20px 32px;
+	word-spacing: 0.2em;
+}
+
+body.family #content div.imgcontainer p span.introbold {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+body.pipe #content div.imgcontainer p span.introbold {
+	font-size: 1.3em;
+}
+
+body.pipe #content div.imgcontainer p {
+	color: #fff;
+	margin: 250px 155px 1px 98px;
+	word-spacing: 4px;
+	font-size: 15px;
+	line-height: 120%;
+}
+
+body.pipe #content div.imgcontainer p em {
+	font-weight: normal;
+}
+
+#content p.nextpoem {
+	font-style: italic;
+	text-align: right;
+	margin-top: 5em;
+}
+
+body.carroll #content div.maincontainer {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	margin: 5em auto;
+}
+
+body.carroll #content div.maincontainer div {
+	display: block;
+	overflow: hidden;
+	width: 70%;
+	clear: both;
+	margin: 3em auto;
+}
+
+body.carroll #content div.maincontainer div img {
+	float: left;
+}
+
+body.carroll #content div.maincontainer div a img {
+	border: 2px solid #f00;
+}
+
+body.carroll #content div.maincontainer div a:hover img {
+	border: 2px solid #000;
+}
+
+
+body.carroll #content div.maincontainer div p {
+	width: 15em;
+	float: left;
+	font-size: 16px;
+}
+
+body.carroll #content div.maincontainer div p#family {
+	margin: 6em 0 0 3em;
+}
+
+body.carroll #content div.maincontainer div p#pipe {
+	margin: 9em 0 0 3em;
+}
+
+body.carroll #content div.maincontainer div p a {
+	padding: 2em;
+}

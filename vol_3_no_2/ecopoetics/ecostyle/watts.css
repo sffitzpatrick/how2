@@ -1,0 +1,8 @@
+.poem p {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	line-height: 120%;
+}
+
+.gap {
+	white-space: pre;
+}

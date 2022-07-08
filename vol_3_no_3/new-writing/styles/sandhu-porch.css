@@ -1,0 +1,10 @@
+#popupcontent div img {
+	display: block;
+	margin: 0 auto;
+}
+
+#popupheader p {
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}
