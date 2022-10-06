@@ -28,7 +28,21 @@
 	border-color: #f00;
 }
 
-#oneone, #onetwo, #onethree, #onefour, #onefive, #onesix, #oneseven, #oneeight, #twoone, #twotwo, #twothree, #twofour, #threeone, #threetwo {
+#oneone,
+#onetwo,
+#onethree,
+#onefour,
+#onefive,
+#onesix,
+#oneseven,
+#oneeight,
+#twoone,
+#twotwo,
+#twothree,
+#twofour,
+#threeone,
+#threetwo,
+#threethree {
 	display: none;
 }
 
