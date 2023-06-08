@@ -3,6 +3,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>L</title>
+<script
+src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2023.2.28"></script>
+<script src="./ruffle.js"></script>
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.RufflePlayer.config = {
+  warnOnUnsupportedContent: false,
+  autoplay: 'auto',
+  preloader: false,
+  polyfills: true,
+  contextMenu: true,
+  };
+</script>
 <style type="text/css">
 <!--
 body {
