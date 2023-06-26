@@ -31,6 +31,19 @@ $(document).ready(function(){
   });
 }); //-->
 </script>
+<script src="/archive/Scripts/ruffle/ruffle.js"></script>
+<!--<script src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2023.2.28"></script>-->
+
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.RufflePlayer.config = {
+  warnOnUnsupportedContent: false,
+  autoplay: 'on',
+  unmuteOverlay: 'hidden',
+  preloader: false,
+  polyfills: true,
+  };
+</script>
 <!--[if lte IE 6]>
 <style type="text/css">
 	#sidebar {
