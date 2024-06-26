@@ -15,6 +15,19 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 }
 //-->
 </script>
+<script src="/archive/Scripts/ruffle/ruffle.js"></script>
+<!--<script src="https://unpkg.com/@ruffle-rs/ruffle@0.1.0-nightly.2023.2.28"></script>-->
+
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.RufflePlayer.config = {
+  warnOnUnsupportedContent: false,
+  autoplay: 'on',
+  unmuteOverlay: 'hidden',
+  preloader: false,
+  polyfills: true,
+  };
+</script>
 <!-- InstanceEndEditable -->
 <link href="../../styles/global.css" rel="stylesheet" type="text/css" media="all" />
 <!--[if lte IE 6]>
